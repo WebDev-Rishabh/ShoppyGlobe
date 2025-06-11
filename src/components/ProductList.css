@@ -1,11 +1,11 @@
-/* General layout */
+
 .homepage {
     padding: 2rem;
     background-color: #f8f9fa;
     min-height: 100vh;
   }
   
-  /* Title and subtitle */
+
   .homepage-title {
     text-align: center;
     font-size: 2.5rem;
@@ -38,7 +38,7 @@
   }
   
   
-  /* Product grid */
+  
   .product-card-body {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
