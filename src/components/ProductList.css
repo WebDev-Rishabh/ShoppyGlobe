@@ -1,0 +1,49 @@
+/* General layout */
+.homepage {
+    padding: 2rem;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+  }
+  
+  /* Title and subtitle */
+  .homepage-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #343a40;
+  }
+  
+  .homepage-subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 2rem;
+  }
+  .loader {
+    align-items: center;
+    justify-content:center; 
+    width: 50px;
+    height: 50px;
+    border: 6px solid #ccc;
+    border-top: 6px solid #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 3rem auto;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  /* Product grid */
+  .product-card-body {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+  
+  

@@ -1,0 +1,22 @@
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    padding: 2rem;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  .not-found-container h2 {
+    font-size: 2rem;
+    color: #dc3545;
+    margin-bottom: 1rem;
+  }
+  
+  .not-found-container p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
